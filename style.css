@@ -348,6 +348,31 @@ footer a {
   margin-top: 1.2rem;
 }
 
+.variant-container {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.variant-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.variant-container select {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #cfd8e3;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f9fbfd;
+  transition: border 0.2s;
+}
+
+.variant-container select:focus {
+  border: 1.5px solid #0077ff;
+  outline: none;
+}
+
 #successMsg {
   display: none;
   color: green;
