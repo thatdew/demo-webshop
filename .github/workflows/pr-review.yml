@@ -13,7 +13,7 @@ jobs:
       id: create-run
       run: |
         response=$(curl -s -X POST \
-          -H "Content-Type: application/json" \          
+          -H "Content-Type: application/json" \
           "https://ai-mastra-agent-workshop-ashy-psi.vercel.app/api/workflows/prWorkflow/create-run")
         
         echo "Create run response: $response"
